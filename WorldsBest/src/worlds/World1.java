@@ -38,6 +38,12 @@ public class World1 extends World {
         entityManager.addEntity(new Stone(handler, 5 * Tile.TILE_WIDTH, 20 * Tile.TILE_HEIGHT));
         entityManager.addEntity(new Stone(handler, 5 * Tile.TILE_WIDTH, 22 * Tile.TILE_HEIGHT));
         entityManager.addEntity(new Stone(handler, 5 * Tile.TILE_WIDTH, 24 * Tile.TILE_HEIGHT));
+        entityManager.addEntity(new Stone(handler, 7 * Tile.TILE_WIDTH, 20 * Tile.TILE_HEIGHT));
+        entityManager.addEntity(new Stone(handler, 7 * Tile.TILE_WIDTH, 22 * Tile.TILE_HEIGHT));
+        entityManager.addEntity(new Stone(handler, 7 * Tile.TILE_WIDTH, 24 * Tile.TILE_HEIGHT));
+        entityManager.addEntity(new Stone(handler, 9 * Tile.TILE_WIDTH, 20 * Tile.TILE_HEIGHT));
+        entityManager.addEntity(new Stone(handler, 9 * Tile.TILE_WIDTH, 22 * Tile.TILE_HEIGHT));
+        entityManager.addEntity(new Stone(handler, 9 * Tile.TILE_WIDTH, 24 * Tile.TILE_HEIGHT));
         entityManager.addEntity(new LotteryBox(handler, 30 * Tile.TILE_WIDTH, 10 * Tile.TILE_HEIGHT));
         
         //setting the portal animation
